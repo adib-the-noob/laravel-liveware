@@ -8,6 +8,7 @@
         id="newName"    
         type="text" 
         class="w-full p-4 border rounded-md bg-red-300 text-black m-2"
+        wire:model.live.debounce="name"
         >
     </div>
     <div class="mt-2 mx-2 my-2">
